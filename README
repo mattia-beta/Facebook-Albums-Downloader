@@ -1,11 +1,10 @@
 FACEBOOK_PHOTOS_DOWNLOAD
 
 1) REQUIREMENTS
-   First of all you have to install 'requests' and 'fbconsole'.
+   First of all you have to install 'requests'.
 
    - requests:   sudo pip install requests
                  http://docs.python-requests.org
-
 
 
 2) I WANT TO DOWNLOAD MY PHOTOS
