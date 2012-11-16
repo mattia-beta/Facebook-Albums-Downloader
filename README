@@ -1,0 +1,44 @@
+FACEBOOK_PHOTOS_DOWNLOAD
+
+1) REQUIREMENTS
+   First of all you have to install 'requests' and 'fbconsole'.
+
+   - requests:   sudo pip install requests
+                 http://docs.python-requests.org
+
+
+
+2) I WANT TO DOWNLOAD MY PHOTOS
+   Well, you have only to run the script by using:
+       python download_photos.py
+
+   ---------------------------------------
+
+   I WANT TO DOWNLOAD MY FRIENDS PHOTO
+   To download your friend photos you have to edit the 'id_user' variable:
+       id_user = "YOUR_FRIEND_USERNAME OR UID"
+    
+   You can get your friend UID by editing and then opening this link:
+       https://www.graph.facebook.com/YOUR_FRIEND_NICKNAME_HERE
+   Will appear something like that:
+
+    {
+	   "name": "Facebook Platform",
+	   "website": "http://developers.facebook.com",
+	   "username": "platform",
+	   "founded": "May 2007",
+	   "company_overview": "Facebook Platform...",
+	   "mission": "To make the web more open and social.",
+	   "products": "Facebook Application Prog...",
+	   "likes": 449921,
+	   "id": 19292868552,
+	   "category": "Technology"
+   }
+
+   You have to copy the "id" value, in this example it's "19292868552" 
+   and paste it into the script like that:
+       id_user = "19292868552"
+
+   you can now run the script by using:
+       python download_photos.py
+   
